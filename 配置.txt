@@ -7,3 +7,5 @@ git status 观察git的状态
 git reset --hard HEAD^(几个尖角号表示回滚几个版本，也可以~100这样表示回滚100）
 git log 能看到当前版本和之前的版本
 git Reset --hard 标号 跳转到标号对应的版本
+clear 清除输入的界面
+git reflog 能看到之前操作的所有记录
