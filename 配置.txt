@@ -1,0 +1,7 @@
+git init    初始化
+git config --gloabl user.name Byron      配置git的用户名
+git config --gloabl user.email 888888888@qq.com    配置git的邮箱
+git add 你要管理的文件名 （git add . 把所有的文件推到git上）
+git commit -m "自定义的版本名"
+git status 观察git的状态
+
