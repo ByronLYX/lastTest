@@ -15,6 +15,11 @@ git checkout dev 跳转到dev分支
 git merge dev 将dev分支合并到master分支上
 解决冲突
 
+git push origin dev1(本地分支名称):dev1（远程分支名称）
+
+落后版本时先拉一下git pull origin master，再推（小公司）
 
 
 
+下载的时候
+选择 SHH  复制地址  在cmd中 “git clone 地址”
