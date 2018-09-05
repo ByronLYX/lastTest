@@ -2,6 +2,7 @@ git init    初始化
 git config --gloabl user.name Byron      配置git的用户名
 git config --gloabl user.email 888888888@qq.com    配置git的邮箱
 git add 你要管理的文件名 （git add . 把所有的文件推到git上）
+如果报错先输入git config core.longpaths true，再重复上述步骤
 git commit -m "自定义的版本名"
 git status 观察git的状态
 git reset --hard HEAD^(几个尖角号表示回滚几个版本，也可以~100这样表示回滚100）
@@ -9,3 +10,11 @@ git log 能看到当前版本和之前的版本
 git Reset --hard 标号 跳转到标号对应的版本
 clear 清除输入的界面
 git reflog 能看到之前操作的所有记录
+git branch dev 分支
+git checkout dev 跳转到dev分支
+git merge dev 将dev分支合并到master分支上
+解决冲突
+
+
+
+
